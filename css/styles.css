@@ -20,6 +20,12 @@ body {
   color: var(--primary-color);
   font-weight: 600;
 }
+.contact-link:hover {
+  color: #7cd7eb;
+}
+.comtact-link:visited {
+  color: #7cd7eb;
+}
 
 @media (max-width: 992px) {
   .contact-link {
