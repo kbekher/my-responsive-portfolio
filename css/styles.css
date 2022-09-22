@@ -20,9 +20,6 @@ body {
   color: var(--primary-color);
   font-weight: 600;
 }
-.contact-link:hover {
-  color: #7cd7eb;
-}
 
 .contact-link:visited {
   color: var(--primary-color);
