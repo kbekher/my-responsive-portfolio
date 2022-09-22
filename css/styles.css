@@ -1,13 +1,22 @@
 :root {
-  --primary-color: #39afc9;
-  --border: 1px solid var(--primary-color);
+  --primary-color: #232a36;
+  --secondary-color: rgba(255, 255, 255, 0.07);
+  --paragraph-color: rgba(255, 255, 255, 0.7);
+  --branding-color: #39afc9;
+  --border: 1px solid var(--branding-color);
   --background: rgba(255, 255, 255, 0.07);
 }
 
 body {
-  background: #232a36;
+  background: var(--primary-color);
   font-family: "Poppins", sans-serif;
+  color: #ffffff;
 }
+h3,
+strong {
+  color: var(--branding-color);
+}
+
 .nav-item {
   font-size: 16px;
   margin: 0 16px;
@@ -17,12 +26,48 @@ body {
   background-color: rgba(57, 175, 201, 0.07);
   border: var(--border);
   border-radius: 46px;
-  color: var(--primary-color);
+  color: var(--branding-color);
   font-weight: 600;
 }
 
 .contact-link:visited {
-  color: var(--primary-color);
+  color: var(--branding-color);
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  margin: 132px 52px;
+  height: 574px;
+}
+.hero-description {
+  padding-top: 84px;
+  padding-left: 64px;
+}
+.hero h3 {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 21px;
+  margin: 0;
+}
+.hero h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+}
+.hero p {
+  color: var(--paragraph-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.hero .contact-link {
+  background-color: var(--branding-color);
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 42px;
+  text-decoration: none;
 }
 
 @media (max-width: 992px) {
