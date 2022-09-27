@@ -11,6 +11,7 @@ body {
   background: var(--primary-color);
   font-family: "Poppins", sans-serif;
   color: #ffffff;
+  margin: 0 52px;
 }
 h3,
 strong {
@@ -36,13 +37,12 @@ strong {
 
 .hero {
   background-color: var(--secondary-color);
-  margin: 132px 52px;
+  margin: 132px auto;
   height: 574px;
-  /*max-width: 1336px;*/
 }
-.hero-description {
-  padding-top: 84px;
-  padding-left: 64px;
+.text-section {
+  max-width: 640px;
+  padding: 84px 0 10px 64px;
 }
 .hero h3 {
   font-size: 16px;
@@ -71,11 +71,14 @@ strong {
   padding: 16px 42px;
   text-decoration: none;
 }
+.image-section {
+  padding-right: 60px;
+}
+#photo {
+  max-width: 520px;
+}
 
-.photo {
-  top: -34px;
-  left: 750px;
-  width: 550px;
+@media (max-width: 1200px) {
 }
 
 @media (max-width: 992px) {
@@ -83,4 +86,7 @@ strong {
     background-color: transparent;
     border: none;
   }
+}
+
+@media (max-width: 768px) {
 }
