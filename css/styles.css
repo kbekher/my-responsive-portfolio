@@ -4,7 +4,6 @@
   --paragraph-color: rgba(255, 255, 255, 0.7);
   --branding-color: #39afc9;
   --border: 1px solid var(--branding-color);
-  --background: rgba(255, 255, 255, 0.07);
 }
 
 body {
@@ -12,6 +11,17 @@ body {
   font-family: "Poppins", sans-serif;
   color: #ffffff;
   margin: 0 52px;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
 }
 h3,
 strong {
@@ -37,7 +47,8 @@ strong {
 
 .hero {
   background-color: var(--secondary-color);
-  margin: 132px auto;
+  margin: 0 auto;
+  margin-top: 132px;
   height: 574px;
 }
 .text-section {
@@ -50,11 +61,7 @@ strong {
   line-height: 21px;
   margin: 0;
 }
-.hero h1 {
-  font-size: 64px;
-  font-weight: 600;
-  line-height: 64px;
-}
+
 .hero p {
   color: var(--paragraph-color);
   font-size: 18px;
@@ -76,6 +83,30 @@ strong {
 }
 #photo {
   max-width: 520px;
+}
+
+.skills {
+  margin: 0 auto;
+  margin-top: 72px;
+  max-width: 1120px;
+}
+
+.skill-box {
+  width: 271px;
+  height: 185px;
+  background-color: var(--secondary-color);
+}
+
+.skill-box img {
+  margin-top: 40px;
+}
+.skill-box p {
+  margin-top: 8px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--paragraph-color);
 }
 
 @media (max-width: 1200px) {
