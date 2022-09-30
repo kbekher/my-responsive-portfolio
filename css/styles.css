@@ -127,6 +127,7 @@ strong {
     border: none;
   }
   .hero {
+    margin-top: 100px;
     text-align: center;
     height: auto;
   }
@@ -145,23 +146,58 @@ strong {
   .image-section {
     display: none;
   }
+
+  h2 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
+  body {
+    margin: 0 32px;
+  }
+  .hero h3 {
+    margin-top: 0;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .skills {
+    margin-top: 48px;
+  }
+  .skill-box {
+    height: 144px;
+  }
+  .skill-box img {
+    margin-top: 18px;
+  }
 }
 
 @media (max-width: 576px) {
+  .hero {
+    margin-top: 90px;
+  }
+  .text-section {
+    padding: 32px 10px 42px 10px;
+  }
   .hero h3 {
     font-size: 16px;
-    margin-top: 0;
+    margin-bottom: 12px;
   }
   h1 {
-    font-size: 38px;
+    font-size: 34px;
     font-weight: 600;
-    line-height: 46px;
+    line-height: 42px;
   }
   .hero p {
     font-size: 12px;
     line-height: 18px;
+    margin: 12px 16px 24px 16px;
+  }
+  .hero .contact-link {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 12px 32px;
+    text-decoration: none;
   }
 }
