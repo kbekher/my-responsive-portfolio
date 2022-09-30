@@ -27,6 +27,12 @@ h3,
 strong {
   color: var(--branding-color);
 }
+p {
+  color: var(--paragraph-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
 
 .nav-item {
   font-size: 16px;
@@ -63,10 +69,6 @@ strong {
 }
 
 .hero p {
-  color: var(--paragraph-color);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
   margin-bottom: 40px;
 }
 .hero .contact-link {
@@ -111,6 +113,53 @@ strong {
   color: var(--paragraph-color);
 }
 
+.certificates {
+  background-color: var(--secondary-color);
+  margin: 0 auto;
+  margin-top: 96px;
+  max-width: 1120px;
+  height: 475px;
+}
+
+.certificate-description {
+  max-width: 460px;
+  padding: 56px 40px;
+}
+
+.certificates .contact-link {
+  background-color: var(--branding-color);
+  border-radius: 87px;
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 42px;
+  text-decoration: none;
+}
+
+.certificates .contact-section {
+  align-items: flex-end;
+  display: flex;
+}
+
+.certificate-img {
+  text-align: center;
+  position: relative;
+}
+.certificate-img img {
+  border-radius: 10px;
+  position: absolute;
+}
+.front-img {
+  max-width: 549px;
+  height: 377px;
+  top: -30px;
+  left: -580px;
+}
+.back-img {
+  width: 488px;
+  height: 335px;
+}
 @media (max-width: 1200px) {
   #photo {
     max-width: 470px;
@@ -189,9 +238,11 @@ strong {
     font-weight: 600;
     line-height: 42px;
   }
-  .hero p {
+  p {
     font-size: 12px;
     line-height: 18px;
+  }
+  .hero p {
     margin: 12px 16px 24px 16px;
   }
   .hero .contact-link {
