@@ -22,6 +22,7 @@ h2 {
   font-size: 32px;
   font-weight: 600;
   line-height: 48px;
+  margin: 0;
 }
 h3,
 strong {
@@ -133,22 +134,20 @@ nav .btn-branding-outline:visited {
   max-width: 460px;
   padding: 56px 40px;
 }
-
-.arrow-branding {
+.arrow {
   font-size: 18px;
-  color: #ffffff;
-  background-color: #bcabfe;
-  --fa-border-color: #bcabfe;
   --fa-border-padding: 12px;
   --fa-border-radius: 100%;
 }
+.arrow-branding {
+  color: #ffffff;
+  background-color: #bcabfe;
+  --fa-border-color: #bcabfe;
+}
 .arrow-branding-outline {
-  font-size: 18px;
   color: #bcabfe;
   background-color: #3d4052;
   --fa-border-color: #3d4052;
-  --fa-border-padding: 12px;
-  --fa-border-radius: 100%;
 }
 
 .certificates .image-section {
@@ -166,7 +165,7 @@ nav .btn-branding-outline:visited {
   top: -30px;
   left: -100px;
 }
-.back-img {
+.next-img {
   position: relative;
   width: 488px;
   max-height: 335px;
@@ -189,7 +188,7 @@ nav .btn-branding-outline:visited {
     top: -30px;
     left: -82px;
   }
-  .back-img {
+  .next-img {
     max-width: 400px;
     height: auto;
     top: 240px;
@@ -228,6 +227,38 @@ nav .btn-branding-outline:visited {
   h2 {
     text-align: center;
   }
+
+  .certificates {
+    margin-top: 48px;
+    height: auto;
+  }
+
+  .certificates .text-section {
+    max-width: 100%;
+    text-align: center;
+    padding: 18px;
+  }
+
+  .certificates .image-section,
+  .certificate-img {
+    position: static;
+  }
+  .certificates .image-section {
+    padding: 16px 8px;
+  }
+  .certificate-img {
+    display: inline-block;
+    margin: 0 5px;
+    height: auto;
+  }
+  .front-img {
+    max-width: 40%;
+  }
+  .next-img,
+  .previous-img {
+    max-width: 27%;
+    height: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -249,13 +280,21 @@ nav .btn-branding-outline:visited {
   .skill-box img {
     margin-top: 18px;
   }
+
+  .front-img {
+    max-width: 90%;
+  }
+  .next-img,
+  .previous-img {
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
   body {
     margin-top: 90px;
   }
-  .text-section {
+  .hero .text-section {
     padding: 32px 10px 42px 10px;
   }
   .hero h3 {
@@ -267,17 +306,32 @@ nav .btn-branding-outline:visited {
     font-weight: 600;
     line-height: 42px;
   }
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
   p {
     font-size: 12px;
     line-height: 18px;
+    margin: 8px;
   }
   .hero p {
     margin: 12px 16px 24px 16px;
   }
-  .hero .contact-link {
+  .btn-branding {
     font-size: 12px;
     line-height: 18px;
     padding: 12px 32px;
     text-decoration: none;
+  }
+  .arrow {
+    font-size: 10px;
+    --fa-border-padding: 8px;
+  }
+  .certificates .text-section {
+    padding-bottom: 8px;
+  }
+  .certificates .image-section {
+    padding: 8px 4px;
   }
 }
