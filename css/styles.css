@@ -244,7 +244,7 @@ nav .btn-branding-outline:visited {
     position: static;
   }
   .certificates .image-section {
-    padding: 16px 8px;
+    padding: 0 8px 20px 8px;
   }
   .certificate-img {
     display: inline-block;
@@ -331,6 +331,7 @@ nav .btn-branding-outline:visited {
     padding: 18px 24px;
   }
   .certificates .image-section {
-    padding: 8px 4px;
+    padding: 0;
+    padding-bottom: 16px;
   }
 }
