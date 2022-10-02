@@ -41,7 +41,7 @@ a {
   background-color: var(--branding-color);
   border: var(--border);
   border-radius: 87px;
-  color: white;
+  color: #ffffff;
   font-weight: 800;
   font-size: 16px;
   line-height: 24px;
@@ -53,6 +53,10 @@ a {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+}
+.btn-branding:hover,
+.btn-branding-outline:hover {
+  color: #ffffff;
 }
 
 nav .btn-branding-outline {
