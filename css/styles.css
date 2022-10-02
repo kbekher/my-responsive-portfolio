@@ -24,6 +24,7 @@ h2 {
   line-height: 48px;
   margin: 0;
 }
+
 h3,
 strong {
   color: var(--branding-color);
@@ -36,6 +37,13 @@ p {
 }
 a {
   text-decoration: none;
+}
+h2,
+h3,
+h4,
+.btn-branding,
+.btn-branding-outline {
+  text-transform: uppercase;
 }
 .btn-branding {
   background-color: var(--branding-color);
@@ -177,6 +185,33 @@ nav .btn-branding-outline:visited {
   left: -76px;
 }
 
+.projects {
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.projects h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.project-name {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: var(--paragraph-color);
+}
+
+.projects .text-section {
+  max-width: 450px;
+}
+.projects .btn-branding-outline {
+  border-radius: 46px;
+  padding: 12px 20px;
+}
+
+/*RESPONSIVE*/
 @media (max-width: 1200px) {
   #photo {
     max-width: 470px;
