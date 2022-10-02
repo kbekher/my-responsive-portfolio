@@ -236,7 +236,7 @@ nav .btn-branding-outline:visited {
   .certificates .text-section {
     max-width: 100%;
     text-align: center;
-    padding: 18px;
+    padding: 18px 54px;
   }
 
   .certificates .image-section,
@@ -280,7 +280,6 @@ nav .btn-branding-outline:visited {
   .skill-box img {
     margin-top: 18px;
   }
-
   .front-img {
     max-width: 90%;
   }
@@ -329,7 +328,7 @@ nav .btn-branding-outline:visited {
     --fa-border-padding: 8px;
   }
   .certificates .text-section {
-    padding-bottom: 8px;
+    padding: 18px 24px;
   }
   .certificates .image-section {
     padding: 8px 4px;
