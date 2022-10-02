@@ -217,6 +217,59 @@ nav .contact-link:visited {
   color: var(--branding-color);
 }
 
+.contact-me {
+  background-color: var(--secondary-color);
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.contact-me h2 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  text-transform: none;
+}
+
+.phone-icon,
+.email-icon {
+  font-size: 20px;
+  background-color: #3c424d;
+  --fa-border-padding: 10px;
+  --fa-border-radius: 100%;
+  --fa-border-color: #3c424d;
+}
+
+.phone-icon {
+  --fa-border-padding: 10px 12px;
+}
+.contact-me .text-section {
+  padding: 100px 54px;
+}
+
+.contact-me .form-section {
+  padding: 100px 80px 100px 0;
+  max-width: 520px;
+}
+
+.contact-form input {
+  background-color: rgba(35, 42, 54, 1);
+  border: none;
+  color: rgba(193, 196, 199, 1);
+}
+#input-name,
+#input-email {
+  padding: 20px 24px;
+}
+#input-subject {
+  padding: 24px 20px 60px 20px;
+}
+
+.contact-button {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
 /*RESPONSIVE*/
 @media (max-width: 1200px) {
   #photo {
