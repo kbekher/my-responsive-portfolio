@@ -249,11 +249,13 @@
       <h2 class="mb-3">Selected Works & Projects</h2>
       <img
         src="/images/project-line.svg"
-        class="ps-1 position-absolute"
+        class="d-none d-sm-block ps-1 position-absolute"
         alt="project-line"
       />
-      <div class="description-wrap d-flex flex-row justify-content-between">
-        <div class="text-section pt-4 ps-3">
+      <div
+        class="description-wrap d-flex flex-column flex-md-row justify-content-between"
+      >
+        <div class="text-section p-0 pt-sm-4 ps-sm-3">
           <h3>Project <span class="project-number">1</span></h3>
           <h4 class="project-name">Weather App</h4>
           <p class="project-description p-0">
@@ -262,8 +264,10 @@
             iconic brands.
           </p>
         </div>
-        <div class="contact-section d-flex align-items-end">
-          <a href="#" class="btn-branding-outline">Launch project</a>
+        <div class="contact-section d-block d-md-flex align-items-end">
+          <a href="#" class="launch-button btn-branding-outline"
+            >Launch project</a
+          >
         </div>
       </div>
       <div class="image-section mt-4">
