@@ -73,12 +73,12 @@ h4,
   color: #ffffff;
 }
 
-nav .btn-branding-outline {
+nav .contact-link {
   background-color: rgba(57, 175, 201, 0.07);
   border-radius: 46px;
 }
 
-nav .btn-branding-outline:visited {
+nav .contact-link:visited {
   color: var(--branding-color);
 }
 
@@ -213,6 +213,9 @@ nav .btn-branding-outline:visited {
   border-radius: 46px;
   padding: 12px 20px;
 }
+.launch-button:hover {
+  color: var(--branding-color);
+}
 
 /*RESPONSIVE*/
 @media (max-width: 1200px) {
@@ -242,7 +245,7 @@ nav .btn-branding-outline:visited {
   body {
     margin-top: 100px;
   }
-  nav .btn-branding-outline {
+  nav .contact-link {
     background-color: transparent;
     border: none;
   }
