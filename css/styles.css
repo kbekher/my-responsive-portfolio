@@ -367,6 +367,17 @@ nav .contact-link:visited {
   .projects {
     margin-top: 90px;
   }
+  .contact-me {
+    margin-top: 90px;
+  }
+  .contact-me .text-section,
+  .contact-me .form-section {
+    padding: 40px 10px;
+  }
+
+  .contact-me h2 {
+    text-align: left;
+  }
 }
 
 @media (max-width: 768px) {
@@ -399,6 +410,36 @@ nav .contact-link:visited {
   .projects .contact-section {
     text-align: right;
   }
+
+  .contact-me h2 {
+    font-size: 50px;
+    line-height: 52px;
+  }
+  .contact-me h4 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .contact-me p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .phone-icon,
+  .email-icon {
+    font-size: 10px;
+  }
+
+  #input-name,
+  #input-email,
+  #input-subject {
+    font-size: 12px;
+  }
+  #input-name,
+  #input-email {
+    padding: 10px 10px;
+  }
+  #input-subject {
+    padding: 10px 10px 48px 10px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -413,9 +454,8 @@ nav .contact-link:visited {
     margin-bottom: 12px;
   }
   h1 {
-    font-size: 34px;
-    font-weight: 600;
-    line-height: 42px;
+    font-size: 42px;
+    line-height: 44px;
   }
   h2 {
     font-size: 24px;
@@ -473,5 +513,35 @@ nav .contact-link:visited {
     font-size: 12px;
     line-height: 18px;
     padding: 8px 24px;
+  }
+
+  .contact-me {
+    margin-top: 60px;
+  }
+  .contact-me .text-section {
+    padding: 22px 8px 2px 8px;
+  }
+  .contact-me .form-section {
+    padding: 12px 8px 22px 8px;
+  }
+  .contact-me h2,
+  .contact-me p {
+    text-align: center;
+  }
+  .contact-me h2 {
+    font-size: 42px;
+    line-height: 44px;
+  }
+  .contact-me h4 {
+    font-size: 18px;
+  }
+  .contact-me p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .phone-number,
+  .email {
+    margin: 0 auto;
   }
 }
