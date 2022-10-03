@@ -276,6 +276,35 @@ nav .contact-link:visited {
   width: 100%;
 }
 
+footer {
+  display: block;
+  margin: 0 auto;
+  max-width: 1120px;
+  text-align: center;
+}
+.telegram-icon,
+.instagram-icon,
+.linkedin-icon,
+.github-icon {
+  font-size: 32px;
+  color: #404751;
+  margin: 0 6px;
+}
+.instagram-icon {
+  color: var(--branding-color);
+}
+
+.telegram-icon:hover,
+.linkedin-icon:hover,
+.github-icon:hover {
+  color: var(--branding-color);
+  transition: all 0.3s ease-in-out;
+}
+.instagram-icon:hover {
+  color: #404751;
+  transition: all 0.3s ease-in-out;
+}
+
 /*RESPONSIVE*/
 @media (max-width: 1200px) {
   #photo {
