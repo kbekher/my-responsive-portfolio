@@ -115,6 +115,26 @@ nav .contact-link:visited {
 #photo {
   max-width: 520px;
 }
+.html-logo,
+.css-logo,
+.js-logo {
+  max-width: 120px;
+}
+
+.html-logo {
+  top: 214px;
+  left: 10px;
+}
+
+.css-logo {
+  top: 500px;
+  left: 320px;
+}
+
+.js-logo {
+  top: 276px;
+  left: 406px;
+}
 
 .skills {
   margin: 0 auto;
@@ -308,7 +328,7 @@ footer {
 /*RESPONSIVE*/
 @media (max-width: 1200px) {
   #photo {
-    max-width: 470px;
+    max-width: 480px;
   }
 
   .skill-box {
