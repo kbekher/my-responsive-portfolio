@@ -73,6 +73,22 @@ h4,
   color: #ffffff;
 }
 
+.hero,
+.skill-box,
+.certificates,
+.contact-me {
+  background-color: var(--secondary-color);
+}
+
+.hero,
+.skills,
+.certificates,
+.projects,
+.contact-me,
+footer {
+  max-width: 1120px;
+  margin: 0 auto;
+}
 nav .contact-link {
   background-color: rgba(57, 175, 201, 0.07);
   border-radius: 46px;
@@ -88,8 +104,6 @@ nav .contact-link:visited {
 }
 
 .hero {
-  background-color: var(--secondary-color);
-  margin: 0 auto;
   height: 574px;
 }
 .hero .text-section {
@@ -137,15 +151,12 @@ nav .contact-link:visited {
 }
 
 .skills {
-  margin: 0 auto;
   margin-top: 72px;
-  max-width: 1120px;
 }
 
 .skill-box {
   width: 271px;
   height: 185px;
-  background-color: var(--secondary-color);
 }
 
 .skill-box img {
@@ -155,16 +166,12 @@ nav .contact-link:visited {
   margin-top: 8px;
   margin-bottom: 40px;
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   color: var(--paragraph-color);
 }
 
 .certificates {
-  background-color: var(--secondary-color);
-  margin: 0 auto;
   margin-top: 96px;
-  max-width: 1120px;
   height: 475px;
 }
 
@@ -212,8 +219,6 @@ nav .contact-link:visited {
 }
 
 .projects {
-  max-width: 1120px;
-  margin: 0 auto;
   margin-top: 200px;
 }
 
@@ -238,9 +243,6 @@ nav .contact-link:visited {
 }
 
 .contact-me {
-  background-color: var(--secondary-color);
-  max-width: 1120px;
-  margin: 0 auto;
   margin-top: 100px;
 }
 .contact-me h2 {
@@ -248,6 +250,7 @@ nav .contact-link:visited {
   font-weight: 600;
   line-height: 64px;
   text-transform: none;
+  text-align: left;
 }
 
 .phone-icon,
@@ -298,8 +301,6 @@ nav .contact-link:visited {
 
 footer {
   display: block;
-  margin: 0 auto;
-  max-width: 1120px;
   text-align: center;
 }
 .telegram-icon,
@@ -357,8 +358,15 @@ footer {
     background-color: transparent;
     border: none;
   }
-  .hero {
+  .hero,
+  h2 {
     text-align: center;
+  }
+  .hero,
+  .certificates,
+  .certificate-img,
+  .next-img,
+  .previous-img {
     height: auto;
   }
   .hero .text-section {
@@ -377,13 +385,8 @@ footer {
     display: none;
   }
 
-  h2 {
-    text-align: center;
-  }
-
   .certificates {
     margin-top: 48px;
-    height: auto;
   }
 
   .certificates .text-section {
@@ -402,7 +405,6 @@ footer {
   .certificate-img {
     display: inline-block;
     margin: 0 5px;
-    height: auto;
   }
   .front-img {
     max-width: 40%;
@@ -410,22 +412,16 @@ footer {
   .next-img,
   .previous-img {
     max-width: 27%;
-    height: auto;
   }
 
-  .projects {
-    margin-top: 90px;
-  }
+  .projects,
   .contact-me {
     margin-top: 90px;
   }
+
   .contact-me .text-section,
   .contact-me .form-section {
     padding: 40px 10px;
-  }
-
-  .contact-me h2 {
-    text-align: left;
   }
 }
 
@@ -456,7 +452,7 @@ footer {
     display: none;
   }
 
-  .projects .contact-section {
+  .projects .launch-section {
     text-align: right;
   }
 
@@ -553,7 +549,7 @@ footer {
   .project-description {
     margin: 0;
   }
-  .projects .contact-section {
+  .projects .launch-section {
     text-align: center;
     margin-top: 12px;
   }
