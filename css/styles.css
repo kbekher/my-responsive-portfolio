@@ -67,6 +67,7 @@ h4,
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+  padding: 4px 16px;
 }
 .btn-branding:hover,
 .btn-branding-outline:hover {
@@ -80,7 +81,6 @@ h4,
   background-color: var(--secondary-color);
 }
 
-.hero,
 .skills,
 .certificates,
 .projects,
@@ -89,12 +89,13 @@ footer {
   max-width: 1120px;
   margin: 0 auto;
 }
-nav .contact-link {
+nav li.btn-branding-outline {
   background-color: rgba(57, 175, 201, 0.07);
   border-radius: 46px;
 }
 
-nav .contact-link:visited {
+nav a.contact-link,
+nav a.contact-link:visited {
   color: var(--branding-color);
 }
 
@@ -354,9 +355,10 @@ footer {
   body {
     margin-top: 100px;
   }
-  nav .contact-link {
+  nav li.btn-branding-outline {
     background-color: transparent;
     border: none;
+    padding: 0;
   }
   .hero,
   h2 {
@@ -589,4 +591,44 @@ footer {
   .email {
     margin: 0 auto;
   }
+}
+
+nav.test {
+  padding: 40px 0;
+}
+
+.test-logo {
+  width: 45px;
+  height: 32px;
+  margin-right: 5px;
+}
+ul.test {
+  display: inline;
+  padding: 0;
+}
+ul.test li {
+  display: inline;
+  list-style: none;
+  margin: 0 48px;
+}
+ul.test .contact-button {
+  padding: 12px 24px;
+  border-radius: 46px;
+  background-color: rgba(57, 175, 201, 0.07);
+}
+
+nav.test a {
+  color: rgba(255, 255, 255, 0.55);
+}
+nav.test a.contact-link-test {
+  color: var(--branding-color);
+}
+nav.test a.contact-link-test:hover {
+  color: #40bdda;
+}
+nav.test a:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+nav.test li.active a {
+  color: #ffffff;
 }
