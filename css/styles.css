@@ -128,7 +128,7 @@ nav a.contact-link:visited {
   display: flex;
 }
 #photo {
-  max-width: 520px;
+  max-width: 538px;
 }
 .html-logo,
 .css-logo,
@@ -326,11 +326,15 @@ footer {
   color: #404751;
   transition: all 0.3s ease-in-out;
 }
+.copyright {
+  color: var(--secondary-color);
+  font-size: 12px;
+}
 
 /*RESPONSIVE*/
 @media (max-width: 1200px) {
   #photo {
-    max-width: 480px;
+    max-width: 500px;
   }
 
   .skill-box {
