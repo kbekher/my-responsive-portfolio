@@ -304,28 +304,18 @@ footer {
   display: block;
   text-align: center;
 }
-.telegram-icon,
-.instagram-icon,
-.linkedin-icon,
-.github-icon {
-  font-size: 32px;
+footer .social-links a {
   color: #404751;
+  font-size: 32px;
   margin: 0 6px;
+  transition: all 0.3s ease-in-out;
 }
+
+footer .social-links a:hover,
 .instagram-icon {
   color: var(--branding-color);
 }
 
-.telegram-icon:hover,
-.linkedin-icon:hover,
-.github-icon:hover {
-  color: var(--branding-color);
-  transition: all 0.3s ease-in-out;
-}
-.instagram-icon:hover {
-  color: #404751;
-  transition: all 0.3s ease-in-out;
-}
 .copyright {
   color: var(--secondary-color);
   font-size: 12px;
@@ -595,44 +585,4 @@ footer {
   .email {
     margin: 0 auto;
   }
-}
-
-nav.test {
-  padding: 40px 0;
-}
-
-.test-logo {
-  width: 45px;
-  height: 32px;
-  margin-right: 5px;
-}
-ul.test {
-  display: inline;
-  padding: 0;
-}
-ul.test li {
-  display: inline;
-  list-style: none;
-  margin: 0 48px;
-}
-ul.test .contact-button {
-  padding: 12px 24px;
-  border-radius: 46px;
-  background-color: rgba(57, 175, 201, 0.07);
-}
-
-nav.test a {
-  color: rgba(255, 255, 255, 0.55);
-}
-nav.test a.contact-link-test {
-  color: var(--branding-color);
-}
-nav.test a.contact-link-test:hover {
-  color: #40bdda;
-}
-nav.test a:hover {
-  color: rgba(255, 255, 255, 0.75);
-}
-nav.test li.active a {
-  color: #ffffff;
 }
