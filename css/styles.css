@@ -180,7 +180,7 @@ nav a.contact-link:visited {
   max-width: 460px;
   padding: 56px 40px;
 }
-.arrow {
+.certificates i {
   font-size: 18px;
   --fa-border-padding: 12px;
   --fa-border-radius: 100%;
@@ -228,18 +228,18 @@ nav a.contact-link:visited {
   font-weight: 600;
 }
 
-.project-name {
+.projects h4 {
   color: var(--paragraph-color);
 }
 
 .projects .text-section {
-  max-width: 450px;
+  max-width: 480px;
 }
-.launch-button {
+.project a {
   border-radius: 46px;
   padding: 12px 20px;
 }
-.launch-button:hover {
+.project a:hover {
   color: var(--branding-color);
 }
 
@@ -254,8 +254,7 @@ nav a.contact-link:visited {
   text-align: left;
 }
 
-.phone-icon,
-.email-icon {
+.contacts i {
   font-size: 20px;
   background-color: #3c424d;
   --fa-border-padding: 10px;
@@ -294,7 +293,7 @@ nav a.contact-link:visited {
   padding: 24px 20px 60px 20px;
 }
 
-.contact-button {
+.contact-form button {
   display: block;
   margin: 0 auto;
   width: 100%;
@@ -316,7 +315,7 @@ footer .social-links a:hover,
   color: var(--branding-color);
 }
 
-.copyright {
+footer p {
   color: var(--secondary-color);
   font-size: 12px;
 }
@@ -359,10 +358,7 @@ footer .social-links a:hover,
     text-align: center;
   }
   .hero,
-  .certificates,
-  .certificate-img,
-  .next-img,
-  .previous-img {
+  .certificates {
     height: auto;
   }
   .hero .text-section {
@@ -403,11 +399,10 @@ footer .social-links a:hover,
     margin: 0 5px;
   }
   .front-img {
-    max-width: 40%;
+    max-width: 80%;
   }
-  .next-img,
-  .previous-img {
-    max-width: 27%;
+  .next-img {
+    display: none;
   }
 
   .projects,
@@ -443,14 +438,6 @@ footer .social-links a:hover,
   .front-img {
     max-width: 90%;
   }
-  .next-img,
-  .previous-img {
-    display: none;
-  }
-
-  .projects .launch-section {
-    text-align: right;
-  }
 
   .contact-me h2 {
     font-size: 50px;
@@ -464,8 +451,7 @@ footer .social-links a:hover,
     font-size: 14px;
     line-height: 16px;
   }
-  .phone-icon,
-  .email-icon {
+  .contacts i {
     font-size: 10px;
   }
 
@@ -485,8 +471,9 @@ footer .social-links a:hover,
 
 @media (max-width: 576px) {
   body {
-    margin-top: 90px;
+    margin: 80px 20px;
   }
+
   .hero .text-section {
     padding: 32px 10px 42px 10px;
   }
@@ -495,8 +482,8 @@ footer .social-links a:hover,
     margin-bottom: 12px;
   }
   h1 {
-    font-size: 42px;
-    line-height: 44px;
+    font-size: 36px;
+    line-height: 38px;
   }
   h2 {
     font-size: 24px;
@@ -520,7 +507,7 @@ footer .social-links a:hover,
     padding: 12px 32px;
   }
 
-  .arrow {
+  .certificates i {
     font-size: 10px;
     --fa-border-padding: 8px;
   }
@@ -539,18 +526,15 @@ footer .social-links a:hover,
     font-size: 10px;
     margin: 0;
   }
-  .project-name {
+  .projects h4 {
     margin-bottom: 4px;
   }
-  .project-description {
+  .projects p {
     margin: 0;
-  }
-  .projects .launch-section {
-    text-align: center;
-    margin-top: 12px;
+    margin-bottom: 12px;
   }
 
-  .launch-button {
+  .project a {
     font-size: 12px;
     line-height: 18px;
     padding: 8px 24px;
@@ -579,10 +563,5 @@ footer .social-links a:hover,
   .contact-me p {
     font-size: 12px;
     line-height: 18px;
-  }
-
-  .phone-number,
-  .email {
-    margin: 0 auto;
   }
 }
