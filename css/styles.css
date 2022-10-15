@@ -262,7 +262,7 @@ nav a.contact-link:visited {
   --fa-border-color: #3c424d;
 }
 
-.phone-icon {
+.contacts i.phone-icon {
   --fa-border-padding: 10px 12px;
 }
 .contact-me .text-section {
