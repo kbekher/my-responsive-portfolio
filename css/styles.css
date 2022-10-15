@@ -269,7 +269,7 @@ nav a.contact-link:visited {
   padding: 100px 54px;
 }
 
-.contact-me .form-section {
+form {
   padding: 100px 80px 100px 0;
   max-width: 520px;
 }
@@ -411,7 +411,7 @@ footer p {
   }
 
   .contact-me .text-section,
-  .contact-me .form-section {
+  form {
     padding: 40px 10px;
   }
 }
@@ -546,7 +546,7 @@ footer p {
   .contact-me .text-section {
     padding: 22px 8px 2px 8px;
   }
-  .contact-me .form-section {
+  form {
     padding: 12px 8px 22px 8px;
   }
   .contact-me h2,
