@@ -369,12 +369,19 @@
             </div>
           </div>
           <div class="col-sm-6">
-            <form class="contact-form" autocomplete="off">
+            <form
+              class="contact-form"
+              autocomplete="off"
+              id="my-form"
+              action="https://formspree.io/f/mnqrzeqo"
+              method="post"
+            >
               <h4>Send me a message</h4>
               <div class="mb-2">
                 <input
                   type="text"
                   class="form-control"
+                  name="name"
                   id="input-name"
                   placeholder="Name"
                   required
@@ -384,6 +391,7 @@
                 <input
                   type="email"
                   class="form-control"
+                  name="email"
                   id="input-email"
                   placeholder="Email"
                   required
@@ -392,14 +400,16 @@
               <div class="mb-3">
                 <textarea
                   class="form-control"
+                  name="message"
                   id="input-subject"
                   placeholder="Subject"
                   required
                 ></textarea>
               </div>
-              <button type="submit" name="submit" class="btn-branding">
+              <button type="submit" id="my-form-button" class="btn-branding">
                 Contact me
               </button>
+              <p id="my-form-status" class="mt-2"></p>
             </form>
           </div>
         </div>
