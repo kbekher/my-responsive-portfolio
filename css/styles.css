@@ -10,7 +10,7 @@ body {
   background: var(--primary-color);
   font-family: "Poppins", sans-serif;
   color: #ffffff;
-  margin: 132px 52px;
+  margin: 0 52px;
 }
 h1 {
   font-size: 64px;
@@ -104,6 +104,9 @@ nav a.contact-link:visited {
   margin: 0 16px;
 }
 
+#hero {
+  padding-top: 120px;
+}
 .hero {
   height: 574px;
 }
@@ -151,8 +154,8 @@ nav a.contact-link:visited {
   left: 406px;
 }
 
-.skills {
-  margin-top: 72px;
+#skills {
+  padding-top: 80px;
 }
 
 .skill-box {
@@ -219,8 +222,9 @@ nav a.contact-link:visited {
   left: -76px;
 }
 
-.projects {
-  margin-top: 200px;
+#projects {
+  padding-top: 80px;
+  margin-top: 120px;
 }
 
 .projects h3 {
@@ -243,8 +247,8 @@ nav a.contact-link:visited {
   color: var(--branding-color);
 }
 
-.contact-me {
-  margin-top: 100px;
+#contact-me {
+  padding-top: 100px;
 }
 .contact-me h2 {
   font-size: 64px;
@@ -270,7 +274,7 @@ nav a.contact-link:visited {
 }
 
 form {
-  padding: 100px 80px 100px 0;
+  padding: 100px 80px 32px 0;
   max-width: 520px;
 }
 
@@ -348,8 +352,8 @@ footer p {
 }
 
 @media (max-width: 992px) {
-  body {
-    margin-top: 100px;
+  #hero {
+    padding-top: 100px;
   }
   nav li.btn-branding-outline {
     background-color: transparent;
@@ -378,6 +382,9 @@ footer p {
   }
   .hero .image-section {
     display: none;
+  }
+  #skills {
+    padding-top: 90px;
   }
 
   .certificates {
@@ -408,9 +415,12 @@ footer p {
     display: none;
   }
 
-  .projects,
-  .contact-me {
-    margin-top: 90px;
+  #projects {
+    padding-top: 90px;
+    margin-top: 0;
+  }
+  #contact-me {
+    padding-top: 90px;
   }
 
   .contact-me .text-section,
@@ -421,7 +431,7 @@ footer p {
 
 @media (max-width: 768px) {
   body {
-    margin: 100px 32px;
+    margin: 0 32px;
   }
   .hero h3 {
     margin-top: 0;
@@ -429,9 +439,7 @@ footer p {
   .container {
     max-width: 100%;
   }
-  .skills {
-    margin-top: 48px;
-  }
+
   .skill-box {
     height: 144px;
   }
@@ -474,7 +482,10 @@ footer p {
 
 @media (max-width: 576px) {
   body {
-    margin: 80px 20px;
+    margin: 0 20px;
+  }
+  #hero {
+    padding-top: 80px;
   }
 
   .hero .text-section {
@@ -543,8 +554,8 @@ footer p {
     padding: 8px 24px;
   }
 
-  .contact-me {
-    margin-top: 60px;
+  #contact-me {
+    padding-top: 80px;
   }
   .contact-me .text-section {
     padding: 22px 8px 2px 8px;
