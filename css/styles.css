@@ -314,8 +314,7 @@ footer .social-links a {
   transition: all 0.3s ease-in-out;
 }
 
-footer .social-links a:hover,
-.instagram-icon {
+footer .social-links a:hover {
   color: var(--branding-color);
 }
 
