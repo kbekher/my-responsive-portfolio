@@ -104,7 +104,7 @@ nav a.contact-link:visited {
   margin: 0 16px;
 }
 
-#hero {
+.hero-wrap {
   padding-top: 120px;
 }
 .hero {
@@ -130,7 +130,7 @@ nav a.contact-link:visited {
   align-items: flex-end;
   display: flex;
 }
-#photo {
+.photo {
   max-width: 538px;
 }
 .html-logo,
@@ -154,7 +154,7 @@ nav a.contact-link:visited {
   left: 406px;
 }
 
-#skills {
+.skills {
   padding-top: 80px;
 }
 
@@ -222,7 +222,7 @@ nav a.contact-link:visited {
   left: -76px;
 }
 
-#projects {
+.projects {
   padding-top: 80px;
   margin-top: 120px;
 }
@@ -247,7 +247,7 @@ nav a.contact-link:visited {
   color: var(--branding-color);
 }
 
-#contact-me {
+.contact-me-wrap {
   padding-top: 100px;
 }
 .contact-me h2 {
@@ -327,9 +327,8 @@ footer p {
   font-size: 12px;
 }
 
-/*RESPONSIVE*/
 @media (max-width: 1200px) {
-  #photo {
+  .photo {
     max-width: 500px;
   }
 
@@ -352,7 +351,7 @@ footer p {
 }
 
 @media (max-width: 992px) {
-  #hero {
+  .hero-wrap {
     padding-top: 100px;
   }
   nav li.btn-branding-outline {
@@ -383,7 +382,7 @@ footer p {
   .hero .image-section {
     display: none;
   }
-  #skills {
+  .skills {
     padding-top: 90px;
   }
 
@@ -415,11 +414,11 @@ footer p {
     display: none;
   }
 
-  #projects {
+  .projects {
     padding-top: 90px;
     margin-top: 0;
   }
-  #contact-me {
+  .contact-me-wrap {
     padding-top: 90px;
   }
 
@@ -484,7 +483,7 @@ footer p {
   body {
     margin: 0 20px;
   }
-  #hero {
+  .hero-wrap {
     padding-top: 80px;
   }
 
@@ -554,7 +553,7 @@ footer p {
     padding: 8px 24px;
   }
 
-  #contact-me {
+  .contact-me-wrap {
     padding-top: 80px;
   }
   .contact-me .text-section {
