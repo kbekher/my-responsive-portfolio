@@ -531,7 +531,17 @@ footer p {
     line-height: 18px;
     padding: 12px 32px;
   }
+  .container {
+    max-width: 80%;
+  }
 
+  .skill-box img {
+    margin-top: 20px;
+  }
+  .skill-box p {
+    margin: 8px;
+    font-size: 14px;
+  }
   .certificates i {
     font-size: 10px;
     --fa-border-padding: 8px;
