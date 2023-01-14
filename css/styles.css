@@ -382,6 +382,13 @@ footer p {
   .hero .image-section {
     display: none;
   }
+
+  .photo-sm {
+    max-width: 60%;
+    padding: 24px;
+    margin: 0 auto;
+  }
+
   .skills {
     padding-top: 90px;
   }
@@ -488,7 +495,12 @@ footer p {
   }
 
   .hero .text-section {
-    padding: 32px 10px 42px 10px;
+    padding: 32px 16px 42px 16px;
+  }
+
+  .photo-sm {
+    max-width: 50%;
+    padding: 14px;
   }
   .hero h3 {
     font-size: 16px;
