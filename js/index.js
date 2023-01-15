@@ -23,6 +23,22 @@ function showNextCertificate() {
     "alt",
     `${certificates[index].name} certificate image`
   );
+
+  let certificateNextImage = document.querySelector("#certificate-next-image");
+
+  if (index != certificates.length - 1) {
+    certificateNextImage.setAttribute("src", certificates[index + 1].imagePath);
+    certificateNextImage.setAttribute(
+      "alt",
+      `${certificates[index + 1].name} certificate image`
+    );
+  } else {
+    certificateNextImage.setAttribute("src", certificates[0].imagePath);
+    certificateNextImage.setAttribute(
+      "alt",
+      `${certificates[0].name} certificate image`
+    );
+  }
 }
 
 function showPrevCertificate() {
@@ -48,6 +64,13 @@ function showPrevCertificate() {
   certificateImage.setAttribute(
     "alt",
     `${certificates[index].name} certificate image`
+  );
+
+  let certificateNextImage = document.querySelector("#certificate-next-image");
+  certificateNextImage.setAttribute("src", certificates[index + 1].imagePath);
+  certificateNextImage.setAttribute(
+    "alt",
+    `${certificates[index + 1].name} certificate image`
   );
 }
 
