@@ -97,14 +97,14 @@ let certificates = [
   {
     name: "SheCodes Plus",
     testimonial:
-      "SheCodes Plus is an amazing adventure I would highly recommend. It was a challenging, but well structured and fun course. I learned how to use API key and host pages, as well as developed my HTML, CSS and JS skills. ",
+      "SheCodes Plus is an amazing adventure! It was a challenging, but well structured and fun course. I learned how to use API key and host pages, as well as developed my HTML, CSS and JS skills. ",
     link: "https://www.shecodes.io/certificates/2cffcd760c2126c9b4f7ef4966b4f05e",
     imagePath: "/images/certificates/shecodes-plus.png",
   },
   {
     name: "SheCodes Responsive",
     testimonial:
-      "SheCodes Responsive is a great course that helped me to learn how to build responsive websites that look good on different devices. My HTML and CSS skills have improved greatly and I am looking forward to continue developing my skills.",
+      "SheCodes Responsive is a great course that helped me to learn how to build responsive websites that look good on different devices. My HTML, CSS and JS skills have improved greatly.",
     link: "https://www.shecodes.io/certificates/ddde496309404c40a1d4cca4650e679f",
     imagePath: "/images/certificates/shecodes-responsive.png",
   },
