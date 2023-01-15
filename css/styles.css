@@ -343,13 +343,13 @@ footer p {
     max-width: 448px;
     height: auto;
     top: -30px;
-    left: -82px;
+    left: -64px;
   }
   .next-img {
     max-width: 400px;
     height: auto;
     top: 240px;
-    left: -56px;
+    left: -40px;
   }
 }
 
@@ -584,10 +584,7 @@ footer p {
   form {
     padding: 12px 8px 22px 8px;
   }
-  .contact-me h2,
-  .contact-me p {
-    text-align: center;
-  }
+
   .contact-me h2 {
     font-size: 42px;
     line-height: 44px;
