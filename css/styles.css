@@ -281,12 +281,18 @@ form {
   max-width: 520px;
 }
 
+.form-control::placeholder {
+  color: rgba(193, 196, 199, 1);
+  opacity: 0.5;
+}
+
 .contact-form input,
 .contact-form textarea {
   background-color: rgba(35, 42, 54, 1);
   border: 1px solid rgba(35, 42, 54, 1);
   color: rgba(193, 196, 199, 1);
 }
+
 .contact-form input:focus,
 .contact-form textarea:focus {
   background-color: rgba(35, 42, 54, 1);
