@@ -140,6 +140,13 @@ let certificates = [
     link: "https://www.shecodes.io/certificates/ddde496309404c40a1d4cca4650e679f",
     imagePath: "/images/certificates/shecodes-responsive.png",
   },
+  {
+    name: "SheCodes React",
+    testimonial:
+      "This is my last SheCodes course. It was exciting to see the differences between React and pure JS. I learned the conceprts and built an app using React. This has been such an inspiring journey! ",
+    link: "https://www.shecodes.io/certificates/ed4a732ba15dbc8a63053686486d37b6",
+    imagePath: "/images/certificates/shecodes-react.png",
+  },
 ];
 
 let arrowRight = document.querySelector("#arrow-right");
